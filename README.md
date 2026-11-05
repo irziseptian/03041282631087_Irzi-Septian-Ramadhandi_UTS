@@ -45,8 +45,48 @@ Loop menggunakan for untuk mengulang dan memproses seluruh data. Perulangan digu
  Menjumlahkan seluruh nilai untuk menghitung rata-rata. 
  Menghitung jumlah data berdasarkan kategori HIGH, NORMAL, dan LOW. 
  Menampilkan setiap data beserta nomor urut dan kategorinya. 
-4. Contoh output program 
-5. Lima data tambahan yang dipilih sendiri dan alasan singkat mengapa data 
+4. Contoh output program
+===== MONITORING LEVEL TANGKI =====
+01. Nilai = 18% -> LOW
+02. Nilai = 25% -> LOW
+03. Nilai = 33% -> NORMAL
+04. Nilai = 41% -> NORMAL
+05. Nilai = 55% -> NORMAL
+06. Nilai = 62% -> NORMAL
+07. Nilai = 76% -> NORMAL
+08. Nilai = 84% -> HIGH
+09. Nilai = 91% -> HIGH
+10. Nilai = 47% -> NORMAL
+11. Nilai = 29% -> LOW
+12. Nilai = 38% -> NORMAL
+13. Nilai = 70% -> NORMAL
+14. Nilai = 82% -> HIGH
+15. Nilai = 15% -> LOW
+16. Nilai = 12% -> LOW
+17. Nilai = 30% -> NORMAL
+18. Nilai = 50% -> NORMAL
+19. Nilai = 80% -> NORMAL
+20. Nilai = 95% -> HIGH
+===== RINGKASAN =====
+Total data : 20
+LOW        : 5
+NORMAL     : 11
+HIGH       : 4
+Rata-rata : 51.65 %
+Maksimum  : 95 %
+Minimum   : 12 %
+
+===== TESTING =====
+1. Nilai = 29% -> LOW
+2. Nilai = 30% -> NORMAL
+3. Nilai = 31% -> NORMAL
+4. Nilai = 79% -> NORMAL
+5. Nilai = 80% -> NORMAL
+6. Nilai = 81% -> HIGH
+7. Nilai = 18% -> LOW
+8. Nilai = 91% -> HIGH
+===== SELESAI =====
+6. Lima data tambahan yang dipilih sendiri dan alasan singkat mengapa data 
 tersebut masih relevan 
 No. Data Tambahan 
 Alasan 
@@ -65,5 +105,5 @@ Menguji batas akhir kategori NORMAL.
 20 
 95% 
 Mewakili kondisi level tinggi. 
-6. Pernyataan penggunaan AI bila digunakan. 
+7. Pernyataan penggunaan AI bila digunakan. 
 Github-Copilot digunakan untuk merapihkan kode serta menghilangkan kemungkinan typo0
